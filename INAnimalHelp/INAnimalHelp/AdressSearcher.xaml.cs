@@ -15,7 +15,7 @@ namespace INAnimalHelp
     public partial class AdressSearcher : ContentPage
     {
 		//ключ доступа к API
-		private const string GooglePlacesApiKey = "AIzaSyA_txhcAr3-4WjyqG_ox0eaWdmv7iEvAr4";
+		private const string GooglePlacesApiKey = "GooglePlacesApiKey";
 		readonly Event ev;
 		readonly bool settings;
 		readonly Organization organization;

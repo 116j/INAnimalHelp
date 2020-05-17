@@ -3166,11 +3166,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\INAH\\INAnimalHelp\\INAnimalHelp\\INAnimalHelp.Android\\INAnimalHelp.Android.csproj",
+      "projectUniqueName": "D:\\cw\\Ермаченко Е.А. 193\\INAnimalHelp\\INAnimalHelp\\INAnimalHelp.Android\\INAnimalHelp.Android.csproj",
       "projectName": "INAnimalHelp.Android",
-      "projectPath": "E:\\INAH\\INAnimalHelp\\INAnimalHelp\\INAnimalHelp.Android\\INAnimalHelp.Android.csproj",
+      "projectPath": "D:\\cw\\Ермаченко Е.А. 193\\INAnimalHelp\\INAnimalHelp\\INAnimalHelp.Android\\INAnimalHelp.Android.csproj",
       "packagesPath": "C:\\Users\\fair116\\.nuget\\packages\\",
-      "outputPath": "E:\\INAH\\INAnimalHelp\\INAnimalHelp\\INAnimalHelp.Android\\obj\\",
+      "outputPath": "D:\\cw\\Ермаченко Е.А. 193\\INAnimalHelp\\INAnimalHelp\\INAnimalHelp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3191,8 +3191,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "E:\\INAH\\INAnimalHelp\\INAnimalHelp\\INAnimalHelp\\INAnimalHelp.csproj": {
-              "projectPath": "E:\\INAH\\INAnimalHelp\\INAnimalHelp\\INAnimalHelp\\INAnimalHelp.csproj"
+            "D:\\cw\\Ермаченко Е.А. 193\\INAnimalHelp\\INAnimalHelp\\INAnimalHelp\\INAnimalHelp.csproj": {
+              "projectPath": "D:\\cw\\Ермаченко Е.А. 193\\INAnimalHelp\\INAnimalHelp\\INAnimalHelp\\INAnimalHelp.csproj"
             }
           }
         }

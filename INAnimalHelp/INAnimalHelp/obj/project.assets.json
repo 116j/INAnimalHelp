@@ -6428,11 +6428,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\INAH\\INAnimalHelp\\INAnimalHelp\\INAnimalHelp\\INAnimalHelp.csproj",
+      "projectUniqueName": "D:\\cw\\Ермаченко Е.А. 193\\INAnimalHelp\\INAnimalHelp\\INAnimalHelp\\INAnimalHelp.csproj",
       "projectName": "INAnimalHelp",
-      "projectPath": "E:\\INAH\\INAnimalHelp\\INAnimalHelp\\INAnimalHelp\\INAnimalHelp.csproj",
+      "projectPath": "D:\\cw\\Ермаченко Е.А. 193\\INAnimalHelp\\INAnimalHelp\\INAnimalHelp\\INAnimalHelp.csproj",
       "packagesPath": "C:\\Users\\fair116\\.nuget\\packages\\",
-      "outputPath": "E:\\INAH\\INAnimalHelp\\INAnimalHelp\\INAnimalHelp\\obj\\",
+      "outputPath": "D:\\cw\\Ермаченко Е.А. 193\\INAnimalHelp\\INAnimalHelp\\INAnimalHelp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

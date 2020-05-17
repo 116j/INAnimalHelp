@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mVC9mVhmxcPAP5CmKq2mYajus31jnRXFGXd/2Lh9el4L26p+UjT7Bzrm1PoKoUOyAmdCagF2bwFJc0ybKQlP6g==",
+  "dgSpecHash": "BnJpf5SLN1HVGqRmq+GdhnLPQ79maZMcCLF7/X8Jg+zF7t+csdN/rmZloK3FV3raUhT8xcqHbnRRs/fvheni+Q==",
   "success": true,
-  "projectFilePath": "E:\\INAH\\INAnimalHelp\\INAnimalHelp.Service\\INAnimalHelp.Service.csproj",
+  "projectFilePath": "D:\\cw\\Ермаченко Е.А. 193\\INAnimalHelp\\INAnimalHelp.Service\\INAnimalHelp.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fair116\\.nuget\\packages\\dynamicdata\\6.14.14\\dynamicdata.6.14.14.nupkg.sha512",
     "C:\\Users\\fair116\\.nuget\\packages\\flurl\\2.8.2\\flurl.2.8.2.nupkg.sha512",

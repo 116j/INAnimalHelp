@@ -9453,11 +9453,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\INAH\\INAnimalHelp\\INAnimalHelp.Service\\INAnimalHelp.Service.csproj",
+      "projectUniqueName": "D:\\cw\\Ермаченко Е.А. 193\\INAnimalHelp\\INAnimalHelp.Service\\INAnimalHelp.Service.csproj",
       "projectName": "INAnimalHelp.Service",
-      "projectPath": "E:\\INAH\\INAnimalHelp\\INAnimalHelp.Service\\INAnimalHelp.Service.csproj",
+      "projectPath": "D:\\cw\\Ермаченко Е.А. 193\\INAnimalHelp\\INAnimalHelp.Service\\INAnimalHelp.Service.csproj",
       "packagesPath": "C:\\Users\\fair116\\.nuget\\packages\\",
-      "outputPath": "E:\\INAH\\INAnimalHelp\\INAnimalHelp.Service\\obj\\",
+      "outputPath": "D:\\cw\\Ермаченко Е.А. 193\\INAnimalHelp\\INAnimalHelp.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -9478,8 +9478,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "E:\\INAH\\INAnimalHelp\\INAnimalHelp\\INAnimalHelp\\INAnimalHelp.csproj": {
-              "projectPath": "E:\\INAH\\INAnimalHelp\\INAnimalHelp\\INAnimalHelp\\INAnimalHelp.csproj"
+            "D:\\cw\\Ермаченко Е.А. 193\\INAnimalHelp\\INAnimalHelp\\INAnimalHelp\\INAnimalHelp.csproj": {
+              "projectPath": "D:\\cw\\Ермаченко Е.А. 193\\INAnimalHelp\\INAnimalHelp\\INAnimalHelp\\INAnimalHelp.csproj"
             }
           }
         }

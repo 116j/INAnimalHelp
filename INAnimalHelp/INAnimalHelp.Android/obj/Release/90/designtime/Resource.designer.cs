@@ -16877,40 +16877,37 @@ namespace INAnimalHelp.Droid
 			public const int cancel_button_image_alpha = 2131296260;
 			
 			// aapt resource value: 0x7F090005
-			public const int com_vk_sdk_AppId = 2131296261;
+			public const int config_tooltipAnimTime = 2131296261;
 			
 			// aapt resource value: 0x7F090006
-			public const int config_tooltipAnimTime = 2131296262;
+			public const int design_snackbar_text_max_lines = 2131296262;
 			
 			// aapt resource value: 0x7F090007
-			public const int design_snackbar_text_max_lines = 2131296263;
+			public const int design_tab_indicator_anim_duration_ms = 2131296263;
 			
 			// aapt resource value: 0x7F090008
-			public const int design_tab_indicator_anim_duration_ms = 2131296264;
+			public const int google_play_services_version = 2131296264;
 			
 			// aapt resource value: 0x7F090009
-			public const int google_play_services_version = 2131296265;
+			public const int hide_password_duration = 2131296265;
 			
 			// aapt resource value: 0x7F09000A
-			public const int hide_password_duration = 2131296266;
+			public const int mtrl_btn_anim_delay_ms = 2131296266;
 			
 			// aapt resource value: 0x7F09000B
-			public const int mtrl_btn_anim_delay_ms = 2131296267;
+			public const int mtrl_btn_anim_duration_ms = 2131296267;
 			
 			// aapt resource value: 0x7F09000C
-			public const int mtrl_btn_anim_duration_ms = 2131296268;
+			public const int mtrl_chip_anim_duration = 2131296268;
 			
 			// aapt resource value: 0x7F09000D
-			public const int mtrl_chip_anim_duration = 2131296269;
+			public const int mtrl_tab_indicator_anim_duration_ms = 2131296269;
 			
 			// aapt resource value: 0x7F09000E
-			public const int mtrl_tab_indicator_anim_duration_ms = 2131296270;
+			public const int show_password_duration = 2131296270;
 			
 			// aapt resource value: 0x7F09000F
-			public const int show_password_duration = 2131296271;
-			
-			// aapt resource value: 0x7F090010
-			public const int status_bar_notification_info_maxnum = 2131296272;
+			public const int status_bar_notification_info_maxnum = 2131296271;
 			
 			static Integer()
 			{
@@ -17400,46 +17397,34 @@ namespace INAnimalHelp.Droid
 			public const int fab_transformation_sheet_behavior = 2131558463;
 			
 			// aapt resource value: 0x7F0D0040
-			public const int facebook_app_id = 2131558464;
+			public const int hide_bottom_view_on_scroll_behavior = 2131558464;
 			
 			// aapt resource value: 0x7F0D0041
-			public const int facebook_app_name = 2131558465;
+			public const int mtrl_chip_close_icon_content_description = 2131558465;
 			
 			// aapt resource value: 0x7F0D0042
-			public const int fb_login_protocol_scheme = 2131558466;
+			public const int password_toggle_content_description = 2131558466;
 			
 			// aapt resource value: 0x7F0D0043
-			public const int hide_bottom_view_on_scroll_behavior = 2131558467;
+			public const int path_password_eye = 2131558467;
 			
 			// aapt resource value: 0x7F0D0044
-			public const int mtrl_chip_close_icon_content_description = 2131558468;
+			public const int path_password_eye_mask_strike_through = 2131558468;
 			
 			// aapt resource value: 0x7F0D0045
-			public const int password_toggle_content_description = 2131558469;
+			public const int path_password_eye_mask_visible = 2131558469;
 			
 			// aapt resource value: 0x7F0D0046
-			public const int path_password_eye = 2131558470;
+			public const int path_password_strike_through = 2131558470;
 			
 			// aapt resource value: 0x7F0D0047
-			public const int path_password_eye_mask_strike_through = 2131558471;
+			public const int search_menu_title = 2131558471;
 			
 			// aapt resource value: 0x7F0D0048
-			public const int path_password_eye_mask_visible = 2131558472;
+			public const int status_bar_notification_info_overflow = 2131558472;
 			
 			// aapt resource value: 0x7F0D0049
-			public const int path_password_strike_through = 2131558473;
-			
-			// aapt resource value: 0x7F0D004A
-			public const int search_menu_title = 2131558474;
-			
-			// aapt resource value: 0x7F0D004B
-			public const int status_bar_notification_info_overflow = 2131558475;
-			
-			// aapt resource value: 0x7F0D004C
-			public const int title_activity_webview = 2131558476;
-			
-			// aapt resource value: 0x7F0D004D
-			public const int vk_data_theme = 2131558477;
+			public const int title_activity_webview = 2131558473;
 			
 			static String()
 			{

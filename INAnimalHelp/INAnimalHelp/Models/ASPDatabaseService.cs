@@ -15,7 +15,7 @@ namespace INAnimalHelp.Models
     public class ASPDatabaseService
     {
         //ссылка на сервер
-        const string url = "https://inanimalhelpservice.azurewebsites.net/api/INAH/";
+        const string url = "url";
         //путь к загруженным картинкам
         public string storage = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Storage", "Images");
         /// <summary>

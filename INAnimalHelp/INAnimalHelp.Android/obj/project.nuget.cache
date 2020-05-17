@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fnjqMDJxhtb+d0TBka7lq4EaLE3NlbaeF7EZ8XTMuqCofwVfkQvkyI5ipqjuCIjcjMSXmggZ7lNdoluoooJ6Kg==",
+  "dgSpecHash": "gBn3LL1cTa66sZEw3DmOVtDYFHvbZML6piQt769y0KjdBWtFaA0w4jGaTMztLba+IByhuklsV9Dfzx5NFnvKEw==",
   "success": true,
-  "projectFilePath": "E:\\INAH\\INAnimalHelp\\INAnimalHelp\\INAnimalHelp.Android\\INAnimalHelp.Android.csproj",
+  "projectFilePath": "D:\\cw\\Ермаченко Е.А. 193\\INAnimalHelp\\INAnimalHelp\\INAnimalHelp.Android\\INAnimalHelp.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fair116\\.nuget\\packages\\dynamicdata\\6.14.14\\dynamicdata.6.14.14.nupkg.sha512",
     "C:\\Users\\fair116\\.nuget\\packages\\flurl\\2.8.2\\flurl.2.8.2.nupkg.sha512",

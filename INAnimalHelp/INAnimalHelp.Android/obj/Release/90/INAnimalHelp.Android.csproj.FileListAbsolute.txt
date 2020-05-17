@@ -546,3 +546,17 @@ E:\INAH\INAnimalHelp\INAnimalHelp\INAnimalHelp.Android\obj\Release\90\flata\DB2F
 E:\INAH\INAnimalHelp\INAnimalHelp\INAnimalHelp.Android\obj\Release\90\flata\53A73BB6BAFC47C1.stamp
 E:\INAH\INAnimalHelp\INAnimalHelp\INAnimalHelp.Android\obj\Release\90\flata\DB2FE52491FC7DB1.flata
 E:\INAH\INAnimalHelp\INAnimalHelp\INAnimalHelp.Android\obj\Release\90\flata\53A73BB6BAFC47C1.flata
+E:\INAH\INAnimalHelp\INAnimalHelp\INAnimalHelp.Android\obj\Release\90\android\typemap.jm.x86.s
+E:\INAH\INAnimalHelp\INAnimalHelp\INAnimalHelp.Android\obj\Release\90\android\typemap.jm.x86_64.s
+E:\INAH\INAnimalHelp\INAnimalHelp\INAnimalHelp.Android\obj\Release\90\android\typemap.mj.x86.s
+E:\INAH\INAnimalHelp\INAnimalHelp\INAnimalHelp.Android\obj\Release\90\android\typemap.mj.x86_64.s
+E:\INAH\INAnimalHelp\INAnimalHelp\INAnimalHelp.Android\obj\Release\90\android\environment.x86.s
+E:\INAH\INAnimalHelp\INAnimalHelp\INAnimalHelp.Android\obj\Release\90\android\environment.x86_64.s
+E:\INAH\INAnimalHelp\INAnimalHelp\INAnimalHelp.Android\obj\Release\90\android\typemap.jm.x86.o
+E:\INAH\INAnimalHelp\INAnimalHelp\INAnimalHelp.Android\obj\Release\90\android\typemap.mj.x86.o
+E:\INAH\INAnimalHelp\INAnimalHelp\INAnimalHelp.Android\obj\Release\90\android\typemap.jm.x86_64.o
+E:\INAH\INAnimalHelp\INAnimalHelp\INAnimalHelp.Android\obj\Release\90\android\typemap.mj.x86_64.o
+E:\INAH\INAnimalHelp\INAnimalHelp\INAnimalHelp.Android\obj\Release\90\android\environment.x86.o
+E:\INAH\INAnimalHelp\INAnimalHelp\INAnimalHelp.Android\obj\Release\90\android\environment.x86_64.o
+E:\INAH\INAnimalHelp\INAnimalHelp\INAnimalHelp.Android\obj\Release\90\app_shared_libraries\x86\libxamarin-app.so
+E:\INAH\INAnimalHelp\INAnimalHelp\INAnimalHelp.Android\obj\Release\90\app_shared_libraries\x86_64\libxamarin-app.so

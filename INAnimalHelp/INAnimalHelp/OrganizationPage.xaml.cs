@@ -169,13 +169,27 @@ namespace INAnimalHelp
                 string result = await DisplayActionSheet(null, "Cancel", null, "Delete note", "Edit note");
                 if (result == "Delete note")
                 {
-                    App.Database.DeleteNoteAsync(note.Note);
-                    model.Notes.Remove(note);
+                    if (Connectivity.NetworkAccess != NetworkAccess.None)
+                    {
+                        App.Database.DeleteNoteAsync(note.Note);
+                        model.Notes.Remove(note);
+                    }
+                    else
+                    {
+                        DependencyService.Get<IToast>().Show("Internet connection is unavailable. You can't delete this note now.");
+                    }
                 }
                 else if (result == "Edit note")
                 {
-                    note.Images = await App.Database.GetNoteImages(note.Note);
-                    await Navigation.PushAsync(new NoteCreation(note, model.Organization));
+                    if (Connectivity.NetworkAccess != NetworkAccess.None)
+                    {
+                        note.Images = await App.Database.GetNoteImages(note.Note);
+                        await Navigation.PushAsync(new NoteCreation(note, model.Organization));
+                    }
+                    else
+                    {
+                        DependencyService.Get<IToast>().Show("Internet connection is unavailable. You can't edit this note now.");
+                    }
                 }
             }
             //если это страница организации пользователя, но не он создал запись
@@ -184,8 +198,15 @@ namespace INAnimalHelp
                 string result = await DisplayActionSheet(null, "Cancel", null, "Delete note");
                 if (result == "Delete note")
                 {
-                    App.Database.DeleteNoteAsync(note.Note);
-                    model.Notes.Remove(note);
+                    if (Connectivity.NetworkAccess != NetworkAccess.None)
+                    {
+                        App.Database.DeleteNoteAsync(note.Note);
+                        model.Notes.Remove(note);
+                    }
+                    else
+                    {
+                        DependencyService.Get<IToast>().Show("Internet connection is unavailable. You can't delete this note now.");
+                    }
                 }
             }
             //если это страница организации пользователя, и он создал запись
@@ -194,13 +215,27 @@ namespace INAnimalHelp
                 string result = await DisplayActionSheet(null, "Cancel", null, "Delete note", "Edit note");
                 if (result == "Delete note")
                 {
-                    App.Database.DeleteNoteAsync(note.Note);
-                    model.Notes.Remove(note);
+                    if (Connectivity.NetworkAccess != NetworkAccess.None)
+                    {
+                        App.Database.DeleteNoteAsync(note.Note);
+                        model.Notes.Remove(note);
+                    }
+                    else
+                    {
+                        DependencyService.Get<IToast>().Show("Internet connection is unavailable. You can't delete this note now.");
+                    }
                 }
                 else if (result == "Edit note")
                 {
-                    note.Images = await App.Database.GetNoteImages(note.Note);
-                    await Navigation.PushAsync(new NoteCreation(note, model.Organization));
+                    if (Connectivity.NetworkAccess != NetworkAccess.None)
+                    {
+                        note.Images = await App.Database.GetNoteImages(note.Note);
+                        await Navigation.PushAsync(new NoteCreation(note, model.Organization));
+                    }
+                    else
+                    {
+                        DependencyService.Get<IToast>().Show("Internet connection is unavailable. You can't edit this note now.");
+                    }
                 }
             }
         }
