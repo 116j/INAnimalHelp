@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="INAnimalHelp.Filter"
+             BackgroundColor="#282828">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <StackLayout HorizontalOptions="Start">
+                <SearchBar x:Name="searchBar"
+                           Placeholder="Search organization..."
+                           PlaceholderColor="#AFAFAF"
+                           CancelButtonColor="#AFAFAF"
+                           TextChanged="SearchOrganization"/>
+                <ListView x:Name="searchResults" IsVisible="False" ItemTapped="GoToOrganization" >
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <Label Text="{Binding Name}" TextColor="#AFAFAF"/>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+            <StackLayout Grid.Row="1" Padding="15,0,15,0" HorizontalOptions="CenterAndExpand">
+                <Picker Title="Types of animal: " x:Name="animalPicker" SelectedIndexChanged="Picker_SelectedAnimal" TextColor="#AFAFAF" TitleColor="#AFAFAF" HorizontalOptions="CenterAndExpand"/>
+                <Picker Title="Types of organization: " x:Name="organizationPicker" SelectedIndexChanged="Picker_SelectedOrganization" TextColor="#AFAFAF" TitleColor="#AFAFAF" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+            <StackLayout Grid.Row="2" Orientation="Horizontal" VerticalOptions="EndAndExpand" Margin="15">
+                <Button Text="View on map" Clicked="ToMap" HorizontalOptions="CenterAndExpand" TextColor="White"
+                                    CornerRadius="10"
+                                    FontAttributes="Bold"
+                                    BackgroundColor="#433094"/>
+                <Button Text="View on list" Clicked="ToList" HorizontalOptions="CenterAndExpand" TextColor="White"
+                                    CornerRadius="10"
+                                    FontAttributes="Bold"
+                                    BackgroundColor="#433094"/>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

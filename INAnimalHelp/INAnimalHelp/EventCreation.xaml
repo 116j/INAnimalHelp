@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="INAnimalHelp.EventCreation"
+             BackgroundColor="#282828">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Save" Clicked="SaveEvent" IconImageSource="save.png"/>
+        <ToolbarItem x:Name="imageButton" Text="Add Images" Clicked="SelectImagesButton_Clicked" IconImageSource="images.png"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="150"/>
+                    <RowDefinition Height="Auto" x:Name="row"/>
+                    <RowDefinition Height="70" x:Name="row1"/>
+                    <RowDefinition Height="70" x:Name="row2"/>
+                    <RowDefinition Height="70" x:Name="row3"/>
+                    <RowDefinition Height="70" x:Name="row4"/>
+                    <RowDefinition Height="70" x:Name="row5"/>
+                </Grid.RowDefinitions>
+                <ContentView Grid.Row="0">
+                    <StackLayout Orientation="Horizontal" Margin="15">
+                        <Label Text="Name: " TextColor="#8E48CA" FontSize="Subtitle"/>
+                        <Entry x:Name="name" Text="{Binding Name}" PlaceholderColor="#AFAFAF" TextColor="#AFAFAF" HorizontalOptions="FillAndExpand"/>
+                    </StackLayout>
+                </ContentView>
+                <ContentView Grid.Row="1">
+                    <StackLayout Orientation="Horizontal" Margin="15">
+                        <Label Text="Information about: " TextColor="#8E48CA" FontSize="Subtitle"/>
+                        <Editor x:Name="info" Text="{Binding Info}" PlaceholderColor="#AFAFAF" TextColor="#AFAFAF" HorizontalOptions="FillAndExpand"/>
+                    </StackLayout>
+                </ContentView>
+                <AbsoluteLayout  Padding="15,0,15,0" Grid.Row="2">
+                    <ActivityIndicator x:Name="spinner" IsRunning="false"
+				AbsoluteLayout.LayoutBounds="0.5, 0.1, 50, 50" AbsoluteLayout.LayoutFlags="PositionProportional" />
+                    <CarouselView x:Name="ImgCarouselView">
+                        <CarouselView.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"  Spacing="10">
+                                    <Image Source="{Binding ImageUrl}" HeightRequest="200" WidthRequest="200"/>
+                                    <Button Text="Delete" Clicked="DeleteImage" TextColor="White" WidthRequest="100"
+                                    CornerRadius="10"
+                                    FontAttributes="Bold"
+                                    BackgroundColor="#433094"/>
+                                </StackLayout>
+                            </DataTemplate>
+                        </CarouselView.ItemTemplate>
+                    </CarouselView>
+                </AbsoluteLayout>
+                <ContentView Grid.Row="3">
+                    <StackLayout Orientation="Horizontal" Margin="15">
+                        <Label Text="Event type: " TextColor="#8E48CA" FontSize="Subtitle"/>
+                        <Picker x:Name="type" SelectedItem="{Binding EventType}" SelectedIndexChanged="SetEventType" HorizontalOptions="FillAndExpand"  TextColor="#AFAFAF"/>
+                    </StackLayout>
+                </ContentView>
+                <ContentView Grid.Row="4">
+                    <StackLayout Orientation="Horizontal" Margin="15">
+                        <Label Text="Date:  Start: " TextColor="#8E48CA" FontSize="Subtitle"/>
+                        <DatePicker x:Name="startDate" DateSelected="SetStartDate"  TextColor="#AFAFAF"/>
+                    </StackLayout>
+                </ContentView>
+                <ContentView Grid.Row="5">
+                    <StackLayout Orientation="Horizontal" Margin="15">
+                        <Label Text="            End: " TextColor="#8E48CA" FontSize="Subtitle"/>
+                        <DatePicker x:Name="endDate"  DateSelected="SetEndDate"  TextColor="#AFAFAF"/>
+                    </StackLayout>
+                </ContentView>
+                <ContentView Grid.Row="6">
+                    <StackLayout Orientation="Horizontal" Margin="15">
+                        <Label Text="Adress: " TextColor="#8E48CA" FontSize="Subtitle"/>
+                        <Button Text="Select" Clicked="SetEventAdress" TextColor="White"
+                                    CornerRadius="10"
+                                    FontAttributes="Bold"
+                                    BackgroundColor="#433094"/>
+                        <Label x:Name="adress" Text="{Binding Adress}" TextColor="#8E48CA" FontSize="Subtitle"/>
+                    </StackLayout>
+                </ContentView>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

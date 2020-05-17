@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="INAnimalHelp.Settings"
+             BackgroundColor="#282828">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="save.png" Clicked="Save_Changes"/>
+        <ToolbarItem IconImageSource="delete.png" Clicked="Delete"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <ContentView Grid.Row="0">
+                <StackLayout Orientation="Horizontal" Margin="15">
+                    <Label Text="Change login: " TextColor="#AFAFAF" FontSize="Subtitle"/>
+                    <Entry x:Name="login" Text="{Binding Login}" PlaceholderColor="#AFAFAF" TextColor="#AFAFAF" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+            </ContentView>
+            <ContentView Grid.Row="1">
+                <StackLayout Orientation="Horizontal" Margin="15">
+                    <Label Text="Change icon: " TextColor="#AFAFAF" FontSize="Subtitle" ></Label>
+                    <Button Text="Select" Clicked="SelectImage" TextColor="White"
+                                    CornerRadius="10"
+                                    FontAttributes="Bold"
+                                    BackgroundColor="#433094"/>
+                    <Label x:Name="image" TextColor="#AFAFAF" FontSize="Subtitle"/>
+                </StackLayout>
+            </ContentView>
+            <ContentView Grid.Row="2" Margin="15">
+                <Button  Text="Add profile to my profile's list" Clicked="AddToList" x:Name="addprofile" TextColor="White"
+                                    CornerRadius="10"
+                                    FontAttributes="Bold"
+                                    BackgroundColor="#433094"/>
+            </ContentView>
+            <ContentView Margin="15" Grid.Row="3">
+                <Button Text="Login Out" Clicked="LoginOut" TextColor="White" 
+                                    CornerRadius="10"
+                                    FontAttributes="Bold"
+                                    BackgroundColor="#433094"/>
+            </ContentView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <string name="app_name">INAnimalHelp</string>
+  <string name="facebook_app_name">INAnimalHelp</string>
+  <string name="facebook_app_id">2592644530834639</string>
+  <string name="fb_login_protocol_scheme">fb2592644530834639</string>
+  <integer name="com_vk_sdk_AppId">7276280</integer>
+  <string name="vk_data_theme">vk7276280</string>
+</resources>

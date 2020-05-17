@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="INAnimalHelp.OrganizationCreation"
+             BackgroundColor="#282828">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="save.png" Clicked="SaveOrganization"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="150"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <ContentView Grid.Row="0">
+                    <StackLayout Orientation="Horizontal" Margin="15">
+                        <Label Text="Name: " TextColor="#8E48CA" FontSize="Subtitle"/>
+                        <Entry x:Name="name" Text="{Binding Name}" PlaceholderColor="Red" TextColor="#AFAFAF" HorizontalOptions="FillAndExpand"/>
+                    </StackLayout>
+                </ContentView>
+                <ContentView Grid.Row="1">
+                    <StackLayout Orientation="Horizontal"  Margin="15">
+                        <Label Text="Image: " TextColor="#8E48CA" FontSize="Subtitle"/>
+                        <Button Text="Select" Clicked="SelectImage" TextColor="White"
+                                    CornerRadius="10"
+                                    FontAttributes="Bold"
+                                    BackgroundColor="#433094"/>
+                        <Label x:Name="image" TextColor="#AFAFAF" FontSize="Subtitle"/>
+                    </StackLayout>
+                </ContentView>
+                <ContentView Grid.Row="2">
+                    <StackLayout Orientation="Horizontal"  Margin="15">
+                        <Label Text="Information about: " TextColor="#8E48CA" FontSize="Subtitle"/>
+                        <Editor x:Name="about" Text="{Binding About}" PlaceholderColor="#AFAFAF" TextColor="#AFAFAF" HorizontalOptions="FillAndExpand"/>
+                    </StackLayout>
+                </ContentView>
+                <ContentView Grid.Row="3">
+                    <StackLayout Orientation="Horizontal" Margin="15">
+                        <Label Text="Animal type: " TextColor="#8E48CA" FontSize="Subtitle"/>
+                        <Picker SelectedIndexChanged="SetAnimalType" SelectedItem="{Binding AnimalType}" x:Name="animalPicker" HorizontalOptions="FillAndExpand" TextColor="#AFAFAF"/>
+                    </StackLayout>
+                </ContentView>
+                <ContentView Grid.Row="4">
+                    <StackLayout Orientation="Horizontal" Margin="15">
+                        <Label Text="Organization type: " TextColor="#8E48CA" FontSize="Subtitle"/>
+                        <Picker SelectedIndexChanged="SetOrganizationType" SelectedItem="{Binding OrganizationType}" x:Name="organizationPicker" HorizontalOptions="FillAndExpand" TextColor="#AFAFAF"/>
+                    </StackLayout>
+                </ContentView>
+                <ContentView Grid.Row="5">
+                    <StackLayout Orientation="Horizontal" Margin="15">
+                        <Label Text="Adress: " TextColor="#8E48CA" FontSize="Subtitle"/>
+                        <Button Text="Select" Clicked="ChooseOrganizationAdress" TextColor="White"
+                                    CornerRadius="10"
+                                    FontAttributes="Bold"
+                                    BackgroundColor="#433094"/>
+                        <Label x:Name="adress" Text="{Binding Adress}" TextColor="#AFAFAF" HorizontalOptions="FillAndExpand" FontSize="Subtitle"/>
+                    </StackLayout>
+                </ContentView>
+                <ContentView Grid.Row="6">
+                    <StackLayout Orientation="Horizontal"  Margin="15">
+                        <Label Text="Site: " TextColor="#8E48CA" FontSize="Subtitle"/>
+                        <Entry x:Name="site" Text="{Binding Site}" Placeholder="Add url with http(s)://" HorizontalOptions="FillAndExpand" TextColor="#AFAFAF" PlaceholderColor="#AFAFAF"/>
+                    </StackLayout>
+                </ContentView>
+                <ContentView Grid.Row="7" Margin="15">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Number: " TextColor="#8E48CA" FontSize="Subtitle"/>
+                        <Entry x:Name="number" Text="{Binding Number}" HorizontalOptions="FillAndExpand" TextColor="#AFAFAF" PlaceholderColor="#AFAFAF"/>
+                    </StackLayout>
+                </ContentView>
+                <ContentView Grid.Row="8" Margin="15">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Email: " TextColor="#8E48CA" FontSize="Subtitle"/>
+                        <Entry x:Name="email" Text="{Binding Email}" HorizontalOptions="FillAndExpand" TextColor="#AFAFAF" PlaceholderColor="#AFAFAF"></Entry>
+                    </StackLayout>
+                </ContentView>
+                <ContentView Grid.Row="9" Margin="15">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Instagram: " TextColor="#8E48CA" FontSize="Subtitle"/>
+                        <Entry x:Name="instagram" Text="{Binding Instagram}" Placeholder="Add url with http(s)://" HorizontalOptions="FillAndExpand" TextColor="#AFAFAF" PlaceholderColor="#AFAFAF"/>
+                    </StackLayout>
+                </ContentView>
+                <ContentView Grid.Row="10" Margin="15">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Vkontakte: " TextColor="#8E48CA" FontSize="Subtitle"/>
+                        <Entry x:Name="vk" Text="{Binding Vkontakte}" Placeholder="Add url with http(s)://" HorizontalOptions="FillAndExpand" TextColor="#AFAFAF" PlaceholderColor="#AFAFAF"/>
+                    </StackLayout>
+                </ContentView>
+                <ContentView Grid.Row="11" Margin="15">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Facebook: " TextColor="#8E48CA" FontSize="Subtitle"/>
+                        <Entry  x:Name="fb" Text="{Binding Facebook}" Placeholder="Add url with http(s)://" HorizontalOptions="FillAndExpand" PlaceholderColor="#AFAFAF"/>
+                    </StackLayout>
+                </ContentView>
+                <ContentView Grid.Row="12" Margin="15">
+                    <StackLayout>
+                        <Button Text="Add profile to my profile's list" Clicked="AddToList" x:Name="addprofile" TextColor="White"
+                                    CornerRadius="10"
+                                    FontAttributes="Bold"
+                                    BackgroundColor="#433094"/>
+                    </StackLayout>
+                </ContentView>
+                <ContentView Grid.Row="13" Margin="15">
+                    <StackLayout>
+                        <Button Text="Login out" Clicked="LoginOut" x:Name="logout" TextColor="White"
+                                    CornerRadius="10"
+                                    FontAttributes="Bold"
+                                    BackgroundColor="#433094"/>
+                    </StackLayout>
+                </ContentView>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

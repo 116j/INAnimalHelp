@@ -1,0 +1,80 @@
+D:\INAnimalHelp\INAnimalHelp\PlacesSearchBar\bin\Debug\PlacesSearchBar.dll
+D:\INAnimalHelp\INAnimalHelp\PlacesSearchBar\bin\Debug\PlacesSearchBar.pdb
+D:\INAnimalHelp\INAnimalHelp\PlacesSearchBar\bin\Debug\Newtonsoft.Json.dll
+D:\INAnimalHelp\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Core.dll
+D:\INAnimalHelp\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Platform.dll
+D:\INAnimalHelp\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Xaml.dll
+D:\INAnimalHelp\INAnimalHelp\PlacesSearchBar\bin\Debug\Newtonsoft.Json.xml
+D:\INAnimalHelp\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Core.pdb
+D:\INAnimalHelp\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Core.xml
+D:\INAnimalHelp\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Xaml.pdb
+D:\INAnimalHelp\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Xaml.xml
+D:\INAnimalHelp\INAnimalHelp\PlacesSearchBar\obj\Debug\PlacesSearchBar.csprojAssemblyReference.cache
+D:\INAnimalHelp\INAnimalHelp\PlacesSearchBar\obj\Debug\XamlC.stamp
+D:\INAnimalHelp\INAnimalHelp\PlacesSearchBar\obj\Debug\PlacesSearchBar.csproj.CopyComplete
+D:\INAnimalHelp\INAnimalHelp\PlacesSearchBar\obj\Debug\PlacesSearchBar.dll
+D:\INAnimalHelp\INAnimalHelp\PlacesSearchBar\obj\Debug\PlacesSearchBar.pdb
+E:\INAnimalHelp\INAnimalHelp\PlacesSearchBar\bin\Debug\PlacesSearchBar.dll
+E:\INAnimalHelp\INAnimalHelp\PlacesSearchBar\bin\Debug\PlacesSearchBar.pdb
+E:\INAnimalHelp\INAnimalHelp\PlacesSearchBar\bin\Debug\Newtonsoft.Json.dll
+E:\INAnimalHelp\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Core.dll
+E:\INAnimalHelp\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Platform.dll
+E:\INAnimalHelp\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Xaml.dll
+E:\INAnimalHelp\INAnimalHelp\PlacesSearchBar\bin\Debug\Newtonsoft.Json.xml
+E:\INAnimalHelp\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Core.pdb
+E:\INAnimalHelp\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Core.xml
+E:\INAnimalHelp\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Xaml.pdb
+E:\INAnimalHelp\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Xaml.xml
+E:\INAnimalHelp\INAnimalHelp\PlacesSearchBar\obj\Debug\PlacesSearchBar.csprojAssemblyReference.cache
+E:\INAnimalHelp\INAnimalHelp\PlacesSearchBar\obj\Debug\XamlC.stamp
+E:\INAnimalHelp\INAnimalHelp\PlacesSearchBar\obj\Debug\PlacesSearchBar.csproj.CopyComplete
+E:\INAnimalHelp\INAnimalHelp\PlacesSearchBar\obj\Debug\PlacesSearchBar.dll
+E:\INAnimalHelp\INAnimalHelp\PlacesSearchBar\obj\Debug\PlacesSearchBar.pdb
+E:\INAnimalhelp_Remastered\INAnimalHelp\PlacesSearchBar\bin\Debug\PlacesSearchBar.dll
+E:\INAnimalhelp_Remastered\INAnimalHelp\PlacesSearchBar\bin\Debug\PlacesSearchBar.pdb
+E:\INAnimalhelp_Remastered\INAnimalHelp\PlacesSearchBar\bin\Debug\Newtonsoft.Json.dll
+E:\INAnimalhelp_Remastered\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Core.dll
+E:\INAnimalhelp_Remastered\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Platform.dll
+E:\INAnimalhelp_Remastered\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Xaml.dll
+E:\INAnimalhelp_Remastered\INAnimalHelp\PlacesSearchBar\bin\Debug\Newtonsoft.Json.xml
+E:\INAnimalhelp_Remastered\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Core.pdb
+E:\INAnimalhelp_Remastered\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Core.xml
+E:\INAnimalhelp_Remastered\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Xaml.pdb
+E:\INAnimalhelp_Remastered\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Xaml.xml
+E:\INAnimalhelp_Remastered\INAnimalHelp\PlacesSearchBar\obj\Debug\XamlC.stamp
+E:\INAnimalhelp_Remastered\INAnimalHelp\PlacesSearchBar\obj\Debug\PlacesSearchBar.csproj.CopyComplete
+E:\INAnimalhelp_Remastered\INAnimalHelp\PlacesSearchBar\obj\Debug\PlacesSearchBar.dll
+E:\INAnimalhelp_Remastered\INAnimalHelp\PlacesSearchBar\obj\Debug\PlacesSearchBar.pdb
+D:\Новая папка (2)\INAnimalHelp\PlacesSearchBar\bin\Debug\PlacesSearchBar.dll
+D:\Новая папка (2)\INAnimalHelp\PlacesSearchBar\bin\Debug\PlacesSearchBar.pdb
+D:\Новая папка (2)\INAnimalHelp\PlacesSearchBar\bin\Debug\Newtonsoft.Json.dll
+D:\Новая папка (2)\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Core.dll
+D:\Новая папка (2)\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Platform.dll
+D:\Новая папка (2)\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Xaml.dll
+D:\Новая папка (2)\INAnimalHelp\PlacesSearchBar\bin\Debug\Newtonsoft.Json.xml
+D:\Новая папка (2)\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Core.pdb
+D:\Новая папка (2)\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Core.xml
+D:\Новая папка (2)\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Xaml.pdb
+D:\Новая папка (2)\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Xaml.xml
+D:\Новая папка (2)\INAnimalHelp\PlacesSearchBar\obj\Debug\PlacesSearchBar.csprojAssemblyReference.cache
+D:\Новая папка (2)\INAnimalHelp\PlacesSearchBar\obj\Debug\XamlC.stamp
+D:\Новая папка (2)\INAnimalHelp\PlacesSearchBar\obj\Debug\PlacesSearchBar.csproj.CopyComplete
+D:\Новая папка (2)\INAnimalHelp\PlacesSearchBar\obj\Debug\PlacesSearchBar.dll
+D:\Новая папка (2)\INAnimalHelp\PlacesSearchBar\obj\Debug\PlacesSearchBar.pdb
+E:\INAH\INAnimalHelp\PlacesSearchBar\bin\Debug\PlacesSearchBar.dll
+E:\INAH\INAnimalHelp\PlacesSearchBar\bin\Debug\PlacesSearchBar.pdb
+E:\INAH\INAnimalHelp\PlacesSearchBar\bin\Debug\Newtonsoft.Json.dll
+E:\INAH\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Core.dll
+E:\INAH\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Platform.dll
+E:\INAH\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Xaml.dll
+E:\INAH\INAnimalHelp\PlacesSearchBar\bin\Debug\Newtonsoft.Json.xml
+E:\INAH\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Core.pdb
+E:\INAH\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Core.xml
+E:\INAH\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Xaml.pdb
+E:\INAH\INAnimalHelp\PlacesSearchBar\bin\Debug\Xamarin.Forms.Xaml.xml
+E:\INAH\INAnimalHelp\PlacesSearchBar\obj\Debug\PlacesSearchBar.csprojAssemblyReference.cache
+E:\INAH\INAnimalHelp\PlacesSearchBar\obj\Debug\PlacesSearchBar.csproj.CoreCompileInputs.cache
+E:\INAH\INAnimalHelp\PlacesSearchBar\obj\Debug\XamlC.stamp
+E:\INAH\INAnimalHelp\PlacesSearchBar\obj\Debug\PlacesSearchBar.csproj.CopyComplete
+E:\INAH\INAnimalHelp\PlacesSearchBar\obj\Debug\PlacesSearchBar.dll
+E:\INAH\INAnimalHelp\PlacesSearchBar\obj\Debug\PlacesSearchBar.pdb

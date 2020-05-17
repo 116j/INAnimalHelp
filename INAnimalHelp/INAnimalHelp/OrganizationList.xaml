@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="INAnimalHelp.OrganizationList"
+             BackgroundColor="#282828">
+    <ContentPage.Content>
+        <RefreshView IsRefreshing="{Binding IsRefreshing, Mode=OneWay}"
+             RefreshColor="Violet"
+                     BackgroundColor="Black"
+             Command="{Binding RefreshCommand}">
+            <ListView x:Name="list" 
+                  ItemTapped="ToOrganizationPage" 
+                  HasUnevenRows="True" 
+                  Margin="10">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame BackgroundColor="#582FDC"
+                               CornerRadius="10" HasShadow="True">
+                                <Grid ColumnSpacing="10">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Frame CornerRadius="100" 
+                                   HeightRequest="60"
+                                 WidthRequest="60"
+                                 HorizontalOptions="Start"
+                                     Padding="0"
+                                 IsClippedToBounds="True">
+                                        <Image Source="{Binding ImageUrl}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+                                    </Frame>
+                                    <Label Text="{Binding Name}" FontAttributes="Bold" TextColor="#E8C0FF" FontSize="Title" Grid.Column="1" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                                </Grid>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </RefreshView>
+    </ContentPage.Content>
+</ContentPage>

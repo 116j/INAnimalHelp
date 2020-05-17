@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="INAnimalHelp.InformationPage"
+             BackgroundColor="#282828">
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <ContentView Grid.Row="0">
+                    <StackLayout Orientation="Horizontal" Margin="15">
+                        <Label Text="Information: " TextColor="#8E48CA" FontSize="Subtitle"/>
+                        <Label Text="{Binding About}" TextColor="#AFAFAF" FontSize="Subtitle"/>
+                    </StackLayout>
+                </ContentView>
+                <BoxView Grid.Row="1" Color="#8E48CA"
+                         HeightRequest="2"
+                         HorizontalOptions="Fill"/>
+                <ContentView Grid.Row="2">
+                    <StackLayout Orientation="Horizontal" Margin="15">
+                        <Label Text="Animal Type: " TextColor="#8E48CA" FontSize="Subtitle"/>
+                        <Label Text="{Binding AnimalType}" TextColor="#AFAFAF" FontSize="Subtitle"/>
+                    </StackLayout>
+                </ContentView>
+                <BoxView Grid.Row="3" Color="#8E48CA"
+                         HeightRequest="2"
+                         HorizontalOptions="Fill"/>
+                <ContentView Grid.Row="4">
+                    <StackLayout Orientation="Horizontal" Margin="15">
+                        <Label Text="Organization Type: " TextColor="#8E48CA" FontSize="Subtitle"/>
+                        <Label Text="{Binding OrganizationType}" TextColor="#AFAFAF" FontSize="Subtitle"/>
+                    </StackLayout>
+                </ContentView>
+                <BoxView Grid.Row="5" Color="#8E48CA"
+                         HeightRequest="2"
+                         HorizontalOptions="Fill"/>
+                <ContentView Grid.Row="6">
+                    <StackLayout Orientation="Horizontal" Margin="15">
+                        <Label Text="Site: " TextColor="#8E48CA" FontSize="Subtitle"/>
+                        <Label Text="{Binding Site}" x:Name="site" TextColor="#7800EB" FontSize="Subtitle" TextDecorations="Underline"/>
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding TapCommand}"
+                                      CommandParameter="{Binding Site}" />
+                        </Label.GestureRecognizers>
+
+                    </StackLayout>
+                </ContentView>
+                <BoxView Grid.Row="7" Color="#8E48CA"
+                         HeightRequest="2"
+                         HorizontalOptions="Fill"/>
+                <ContentView Grid.Row="8">
+                    <StackLayout Orientation="Horizontal" Margin="15">
+                        <Label Text="Number: " TextColor="#8E48CA" FontSize="Subtitle"/>
+                        <Label Text="{Binding Number}" x:Name="number" TextColor="#7800EB" FontSize="Subtitle" TextDecorations="Underline"/>
+                    </StackLayout>
+                </ContentView>
+                <BoxView Grid.Row="9" Color="#8E48CA"
+                         HeightRequest="2"
+                         HorizontalOptions="Fill"/>
+                <ContentView Grid.Row="10">
+                    <StackLayout Orientation="Horizontal" Margin="15">
+                        <Label Text="Email: " TextColor="#8E48CA" FontSize="Subtitle"/>
+                        <Label Text="{Binding Email}" TextColor="#AFAFAF" FontSize="Subtitle"/>
+                    </StackLayout>
+                </ContentView>
+                <BoxView Grid.Row="11" Color="#8E48CA"
+                         HeightRequest="2"
+                         HorizontalOptions="Fill"/>
+                <ContentView Grid.Row="12">
+                    <StackLayout Orientation="Horizontal" Margin="15">
+                        <Label Text="Adress: " TextColor="#8E48CA" FontSize="Subtitle"/>
+                        <Label Text="{Binding Adress}" TextColor="#AFAFAF" FontSize="Subtitle"/>
+                    </StackLayout>
+                </ContentView>
+                <BoxView Grid.Row="13" Color="#8E48CA"
+                         HeightRequest="2"
+                         HorizontalOptions="Fill"/>
+                <ContentView Grid.Row="14">
+                    <StackLayout Orientation="Horizontal" Margin="15">
+                        <Label Text="Facebook: " TextColor="#8E48CA" FontSize="Subtitle"/>
+                        <Label Text="{Binding Facebook}" x:Name="facebook" TextColor="#7800EB" FontSize="Subtitle" TextDecorations="Underline"/>
+                    </StackLayout>
+                </ContentView>
+                <BoxView Grid.Row="15" Color="#8E48CA"
+                         HeightRequest="2"
+                         HorizontalOptions="Fill"/>
+                <ContentView Grid.Row="16">
+                    <StackLayout Orientation="Horizontal" Margin="15">
+                        <Label Text="Vkontakte: " TextColor="#8E48CA" FontSize="Subtitle"/>
+                        <Label Text="{Binding Vkontakte}" x:Name="vk" TextColor="#7800EB" FontSize="Subtitle" TextDecorations="Underline"/>
+                    </StackLayout>
+                </ContentView>
+                <BoxView Grid.Row="17" Color="#8E48CA"
+                         HeightRequest="2"
+                         HorizontalOptions="Fill"/>
+                <ContentView Grid.Row="18">
+                    <StackLayout Orientation="Horizontal" Margin="15">
+                        <Label Text="Instagram: " TextColor="#8E48CA"/>
+                        <Label Text="{Binding Instagram}" x:Name="inst" TextColor="#7800EB" FontSize="Subtitle" TextDecorations="Underline"/>
+                    </StackLayout>
+                </ContentView>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

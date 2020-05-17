@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="INAnimalHelp.EventList"
+             BackgroundColor="#282828">
+    <ContentPage.Content>
+        <RefreshView IsRefreshing="{Binding IsRefreshing, Mode=OneWay}"
+                     RefreshColor="Violet"
+                     BackgroundColor="Black"
+                     Command="{Binding RefreshCommand}">
+            <ListView x:Name="list" 
+                  ItemTapped="ToEventPage" 
+                  HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame BackgroundColor="#582FDC"
+                               CornerRadius="10" HasShadow="True">
+                            <Label Text="{Binding Name}" TextColor="#AFAFAF" FontSize="Medium" FontAttributes="Bold"/>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        </RefreshView>
+    </ContentPage.Content>
+</ContentPage>

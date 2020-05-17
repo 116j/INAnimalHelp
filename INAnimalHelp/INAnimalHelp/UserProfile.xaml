@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="INAnimalHelp.UserProfile"
+             BackgroundColor="#282828">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Clicked="Settings_Clicked" IconImageSource="settings.png">
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <StackLayout Grid.Row="0" Padding="15,15,15,15"
+                         Orientation="Horizontal">
+                <Frame CornerRadius="100" 
+                       HeightRequest="100"
+                       WidthRequest="100"
+                       HorizontalOptions="Start"
+                       Padding="0"
+                       IsClippedToBounds="True"
+                       VerticalOptions="Center">
+                    <Image x:Name="image" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+                </Frame>
+                <Label x:Name="name" TextColor="#AFAFAF" FontSize="Title" FontAttributes="Bold" HorizontalOptions="Center"/>
+            </StackLayout>
+            <StackLayout Grid.Row="1" Margin="10">
+                <TableView Intent="Data" VerticalOptions="Center">
+                    <TableRoot>
+                        <TableSection>
+                            <TextCell x:Name="organizations" Text="My organizations"  Tapped="Organizations_Tapped" TextColor="#AFAFAF"/>
+                        </TableSection>
+                        <TableSection>
+                            <TextCell Text="My events" x:Name="events" Tapped="Events_Tapped" TextColor="#AFAFAF"/>
+                        </TableSection>
+                    </TableRoot>
+                </TableView>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

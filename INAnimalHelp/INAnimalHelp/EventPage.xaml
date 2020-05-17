@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="INAnimalHelp.EventPage"
+             BackgroundColor="#282828">
+    <ContentPage.Content>
+        <RefreshView  IsRefreshing="{Binding IsRefreshing, Mode=OneWay}"
+             RefreshColor="Violet"
+                     BackgroundColor="Black"
+             Command="{Binding RefreshCommand}">
+            <ScrollView>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto" x:Name="row"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <ContentView Grid.Row="0">
+                        <StackLayout Orientation="Horizontal" Margin="15">
+                            <Label x:Name="name" TextColor="#822EF2" FontSize="Title" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                        </StackLayout>
+                    </ContentView>
+                    <BoxView Grid.Row="1" Color="#8E48CA"
+                         HeightRequest="2"
+                         HorizontalOptions="Fill"/>
+                    <ContentView Grid.Row="2">
+                        <StackLayout Orientation="Horizontal" Margin="15">
+                            <Label x:Name="info" TextColor="#AFAFAF" FontSize="Subtitle"/>
+                        </StackLayout>
+                    </ContentView>
+                    <StackLayout Grid.Row="3" Margin="15" x:Name="imgStack">
+                        <CarouselView x:Name="ImgCarouselView">
+                            <CarouselView.ItemTemplate>
+                                <DataTemplate>
+                                    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"  Spacing="15">
+                                        <Image Source="{Binding ImageUrl}" HeightRequest="250" WidthRequest="250"/>
+                                    </StackLayout>
+                                </DataTemplate>
+                            </CarouselView.ItemTemplate>
+                        </CarouselView>
+                    </StackLayout>
+                    <BoxView Grid.Row="4" Color="#8E48CA"
+                         HeightRequest="2"
+                         HorizontalOptions="Fill"/>
+                    <ContentView Grid.Row="5">
+                        <StackLayout Orientation="Horizontal" Margin="15">
+                            <Label Text="Organization: " TextColor="#8E48CA" FontSize="Subtitle"/>
+                            <Label x:Name="orgname" TextColor="#AFAFAF" FontSize="Subtitle"/>
+                        </StackLayout>
+                    </ContentView>
+                    <BoxView Grid.Row="6" Color="#8E48CA"
+                         HeightRequest="2"
+                         HorizontalOptions="Fill"/>
+                    <ContentView Grid.Row="7">
+                        <StackLayout Orientation="Horizontal"  Margin="15" >
+                            <Label Text="Type of event: " TextColor="#8E48CA" FontSize="Subtitle"/>
+                            <Label x:Name="type" TextColor="#AFAFAF" FontSize="Subtitle"/>
+                        </StackLayout>
+                    </ContentView>
+                    <BoxView Grid.Row="8" Color="#8E48CA"
+                         HeightRequest="2"
+                         HorizontalOptions="Fill"/>
+                    <ContentView Grid.Row="9">
+                        <StackLayout Orientation="Horizontal" Margin="15">
+                            <Label Text="Date:  Start: " TextColor="#8E48CA" FontSize="Subtitle"/>
+                            <Label x:Name="start" TextColor="#AFAFAF" FontSize="Subtitle"/>
+                        </StackLayout>
+                    </ContentView>
+                    <ContentView Grid.Row="10">
+                        <StackLayout Orientation="Horizontal" Margin="15" >
+                            <Label Text="            End: " TextColor="#8E48CA" FontSize="Subtitle"/>
+                            <Label x:Name="end" TextColor="#AFAFAF" FontSize="Subtitle"/>
+                        </StackLayout>
+                    </ContentView>
+                    <BoxView Grid.Row="11" Color="#8E48CA"
+                         HeightRequest="2"
+                         HorizontalOptions="Fill"/>
+                    <ContentView Grid.Row="12">
+                        <StackLayout Orientation="Horizontal" Margin="15" >
+                            <Label Text="Adress: " TextColor="#8E48CA" FontSize="Subtitle"/>
+                            <Label x:Name="adress" TextColor="#AFAFAF" FontSize="Subtitle"/>
+                        </StackLayout>
+                    </ContentView>
+                </Grid>
+            </ScrollView>
+        </RefreshView>
+    </ContentPage.Content>
+</ContentPage>

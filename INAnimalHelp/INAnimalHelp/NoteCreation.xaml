@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="INAnimalHelp.NoteCreation"
+             BackgroundColor="#282828">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Save" Clicked="SaveNote" IconImageSource="save.png"/>
+        <ToolbarItem x:Name="imageButton" Text="Add Images" Clicked="SelectImagesButton_Clicked" IconImageSource="images.png"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="35" x:Name="row1"/>
+                    <RowDefinition Height="Auto" x:Name="row2"/>
+                </Grid.RowDefinitions>
+                <StackLayout >
+                    <Editor x:Name="input" TextColor="#AFAFAF" TextChanged="NoteTextChanged" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand" />
+                </StackLayout>
+                <AbsoluteLayout Grid.Row="1" x:Name="imgstack" IsVisible="False">
+                    <ActivityIndicator x:Name="spinner" IsRunning="false" Color="DarkViolet"
+				AbsoluteLayout.LayoutBounds="0.5, 0.1, 50, 50" AbsoluteLayout.LayoutFlags="PositionProportional" />
+                    <CarouselView x:Name="ImgCarouselView">
+                        <CarouselView.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Spacing="10">
+                                    <Image Source="{Binding ImageUrl}" HeightRequest="500"/>
+                                    <Button Text="Delete" Clicked="DeleteImage" TextColor="White" WidthRequest="70"
+                                    CornerRadius="10"
+                                    FontAttributes="Bold"
+                                    BackgroundColor="#433094"/>
+                                </StackLayout>
+                            </DataTemplate>
+                        </CarouselView.ItemTemplate>
+                    </CarouselView>
+                </AbsoluteLayout>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

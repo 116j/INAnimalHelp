@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:places1="clr-namespace:INAnimalHelp.Models.PlacesSearchBar;assembly=INAnimalHelp"
+             mc:Ignorable="d"
+             x:Class="INAnimalHelp.AdressSearcher"
+             BackgroundColor="#282828">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness" Android="0" />
+    </ContentPage.Padding>
+    <StackLayout>
+        <places1:PlacesBar x:Name="search_bar" TextColor="#AFAFAF"/>
+        <Image Source="powered_by_google_on_white.png" HeightRequest="30" HorizontalOptions="Center" />
+        <AbsoluteLayout>
+            <ActivityIndicator x:Name="spinner" IsRunning="false"
+				AbsoluteLayout.LayoutBounds="0.5, 0.1, 50, 50" AbsoluteLayout.LayoutFlags="PositionProportional" />
+            <ListView x:Name="results_list" IsVisible="false"
+				AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="SizeProportional" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell d:DataContext="{d:DesignInstance custom:AutoCompletePrediction}" Text="{Binding MainText}" Detail="{Binding SecondaryText}" DetailColor="#626262" TextColor="#AFAFAF"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </AbsoluteLayout>
+    </StackLayout>
+</ContentPage>

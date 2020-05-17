@@ -1,0 +1,58 @@
+﻿<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+             mc:Ignorable="d"
+                 Padding="30,90,30,90"
+                 BackgroundColor="Transparent"
+             x:Class="INAnimalHelp.PopupList">
+    <pages:PopupPage.Animation>
+        <animations:ScaleAnimation HasBackgroundAnimation="False"
+                                  PositionIn="Center" 
+                                  PositionOut="Center"
+                                  ScaleIn="1.2"
+                                   ScaleOut="0.8"
+                                   DurationIn="400"
+                                   DurationOut="300"
+                                  EasingIn="SinIn"
+                                  EasingOut="SinInOut"/>
+    </pages:PopupPage.Animation>
+    <Frame CornerRadius="5"
+           BackgroundColor="#AD9AF8">
+        <ListView x:Name="list" ItemTapped="GoToAccount" 
+              HasUnevenRows="True" 
+              BackgroundColor="#AD9AF8"
+                  SeparatorColor="#522CE8">
+            <ListView.Footer>
+                <ContentView Margin="15">
+                    <Label Text="Sign in to another account" x:Name="label" FontSize="Subtitle" FontAttributes="Bold" TextColor="#2F1889">
+                    </Label>
+                </ContentView>
+            </ListView.Footer>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" Margin="10">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <Frame CornerRadius="100"
+                               HeightRequest="50"
+                               WidthRequest="50"
+                                       Grid.Column="0">
+                                    <Image Source="{Binding ImageUrl}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+                                </Frame>
+                                <Label Text="{Binding Login}" TextColor="#2F1889" FontSize="Subtitle" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.Column="1"/>
+                                <Label Text="{Binding Name}" TextColor="#2F1889" FontSize="Subtitle" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.Column="1"/>
+                            </Grid>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Frame>
+</pages:PopupPage>
